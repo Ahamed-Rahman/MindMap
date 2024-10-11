@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Neumorphism Platform Theme -->
+    <style name="Platform.Theme.Neumorphism" parent="Theme.Neumorph.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/status_bar_scrim</item>
+        <item name="android:navigationBarColor">@color/nav_bar_scrim</item>
+        <!-- Optional: Customize other system UI elements -->
+    </style>
+
+    <!-- Application Theme inheriting Neumorphism Platform Theme -->
+    <style name="AppTheme" parent="Platform.Theme.Neumorphism">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:navigationBarColor">@color/nav_bar_scrim</item>
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <!-- Custom Text Appearance for Tab Layout -->
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">14sp</item> <!-- Custom size for tab text -->
+        <item name="android:textColor">@color/colorTitle</item> <!-- Use title color -->
+    </style>
+
+    <!-- BottomSheet Dialog Theme -->
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <!-- Optional: Add corner radius or custom animation -->
+    </style>
+
+    <!-- Modal Style for BottomSheet -->
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottomsheet_bg</item>
+        <!-- Optional: Add padding/margin here if needed -->
+    </style>
+
+
+
+</resources>

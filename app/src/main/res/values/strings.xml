@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">note</string>
+    <string name="tab_all">All</string>
+    <string name="tab_high">High</string>
+    <string name="tab_medium">Medium</string>
+    <string name="tab_low">Low</string>
+    <string name="note">MindMap</string>
+    <string name="note_is_empty">MindMap</string>
+    <string name="save">Save</string>
+    <string name="note_title">Note Title</string>
+    <string name="title">Title</string>
+    <string name="write_a_note" tools:ignore="TypographyEllipsis">Write a note...</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="menu">Menu</string>
+    <string name="add_notes">Add notes</string>
+    <string name="search_notes">Search Notes</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+    <string name="start">start</string>
+    <string name="pause">pause\n</string>
+    <string name="reset">reset</string>
+    <string name="notification">notification\n</string>
+
+    <string-array name="labels">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>
