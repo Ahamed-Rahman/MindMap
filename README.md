@@ -11,6 +11,15 @@
 - **Reminder System**: Alerts users of upcoming tasks to ensure they stay on track.
 - **Stopwatch Feature**: Track the time spent on specific tasks for better time management.
 
+## Screenshots
+
+Here are some screenshots of the Mind Map app:
+
+![Main Page](screenshots/main_page.png)
+![Adding a Note](screenshots/add_note.png)
+![Reminder System](screenshots/reminder.png)
+![Stopwatch Feature](screenshots/stopwatch.png)
+
 ## Installation
 
 To run the Mind Map app on your device:
